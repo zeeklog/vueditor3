@@ -11,11 +11,17 @@ Supports all UEditor commands and functions, and perfectly supports UEditor's cu
 
 ## 安装指南 / Installation
 
-```bash
+- 一、克隆代码 / Clone Code
+```bash 
 git clone https://github.com/ethwillupto10000/vueditor3
 cd vueditor3
 npm i # 或者 cnpm i 
 ```
+
+- 二、复制资源文件 / Copy Resource Folder
+    - 复制文件夹：/public.ueditor 到你的项目根目录/public下（没有则创建一个）
+    - Copy Folder: /public.ueditor and place it under your project root path: /public（if don't have , plz make a new 1）
+
 ## 运行开发环境 / Run dev environment
 ```shell
 npm run dev
