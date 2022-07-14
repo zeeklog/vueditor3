@@ -30,7 +30,7 @@ export default {
   data() {
     return {
       // 单个组件可能存在多个不可复用的实例
-      id: 'HC' + Math.round(Math.random() * 100),
+      id: 'vuEditor3_' + Math.round(Math.random() * 100),
       editor: null,
       defaultConfig: {
         UEDITOR_HOME_URL: '../ueditor/',

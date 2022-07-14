@@ -19,7 +19,7 @@
  * Please Copy you Resource folder: /public/ueditor to you own project folder: /public/ueditor
  * **/
 import { ref, watch } from 'vue'
-import Editor from './Editor.vue'
+import Editor from '/index.vue'
 
 const configPath = '/ueditor/config/ueditor.config.js'
 
